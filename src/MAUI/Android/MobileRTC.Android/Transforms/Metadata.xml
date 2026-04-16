@@ -335,17 +335,20 @@
     <remove-node path="/api/package[@name='us.zoom.sdk']/interface[@name='MeetingService']/method[@name='configDSCP']"/>
     <remove-node path="/api/package[@name='us.zoom.sdk']/interface[@name='MeetingService']/method[@name='dialOutUser']"/>
     <remove-node path="/api/package[@name='us.zoom.sdk']/interface[@name='MeetingService']/method[@name='getInviteRoomSystemHelper']"/>
+    <remove-node path="/api/package[@name='us.zoom.sdk']/interface[@name='MeetingService']/method[@name='getPhoneHelper']"/>
     <remove-node path="/api/package[@name='us.zoom.sdk']/interface[@name='MeetingService']/method[@name='getWebinarRegistrationLegalNoticesExplained']"/>
     <remove-node path="/api/package[@name='us.zoom.sdk']/interface[@name='MeetingService']/method[@name='getWebinarRegistrationLegalNoticesPrompt']"/>
     <remove-node path="/api/package[@name='us.zoom.sdk']/interface[@name='MeetingService']/method[@name='handZoomWebUrl']"/>
     <remove-node path="/api/package[@name='us.zoom.sdk']/interface[@name='MeetingService']/method[@name='isDialOutInProgress']"/>
     <remove-node path="/api/package[@name='us.zoom.sdk']/interface[@name='MeetingService']/method[@name='isDialoutSupported']"/>
     <remove-node path="/api/package[@name='us.zoom.sdk']/interface[@name='MeetingService']/method[@name='removeDialOutListener']"/>
+    <remove-node path="/api/package[@name='us.zoom.sdk']/interface[@name='MeetingServiceListener']/implements[@name='us.zoom.core.interfaces.g']"/>
     <remove-node path="/api/package[@name='us.zoom.sdk']/interface[@name='MeetingServiceListener']/implements[@name='us.zoom.proguard.x60']"/>
     <remove-node path="/api/package[@name='us.zoom.sdk']/interface[@name='NetworkConnectionListener']/implements[@name='us.zoom.proguard.x60']"/>
     <remove-node path="/api/package[@name='us.zoom.sdk']/interface[@name='PhoneHelperListener']/implements[@name='us.zoom.proguard.x60']"/>
     <remove-node path="/api/package[@name='us.zoom.sdk']/interface[@name='SmsListener']/implements[@name='us.zoom.proguard.x60']"/>
     <remove-node path="/api/package[@name='us.zoom.sdk']/interface[@name='ZoomSDKAuthenticationListener']/method[@name='onNotificationServiceStatus']"/>
+    <remove-node path="/api/package[@name='us.zoom.sdk']/interface[@name='ZoomSDKInitializeListener']/implements[@name='us.zoom.core.interfaces.g']"/>
     <remove-node path="/api/package[@name='us.zoom.sdk']/interface[@name='ZoomSDKInitializeListener']/implements[@name='us.zoom.proguard.x60']"/>
     <remove-node path="/api/package[@name='us.zoom.sdk']/interface[@name='ZoomUIService']"/>
     <remove-node path="/api/package[@name='us.zoom.switchscene.datasource']/class[@name='BaseActivityLifecycleDataSorce']"/>
@@ -368,6 +371,18 @@
     <remove-node path="/api/package[@name='us.zoom.zmsg.view.adapter.composeBox.adapter']/class[@name='CustomizeShortcutsAdapter']"/>
     <remove-node path="/api/package[@name='us.zoom.zmsg.view.mm']/class[@name='MMMessageItem']"/>
     <remove-node path="/api/package[@name='us.zoom.zmsg.view.mm']/class[@name='MMThreadsRecyclerView']"/>
+    <remove-node path="/api/package[starts-with(@name, 'us.zoom.bridge')]"/>
+    <remove-node path="/api/package[starts-with(@name, 'us.zoom.captions')]"/>
+    <remove-node path="/api/package[starts-with(@name, 'us.zoom.component')]"/>
+    <remove-node path="/api/package[starts-with(@name, 'us.zoom.feature')]"/>
+    <remove-node path="/api/package[starts-with(@name, 'us.zoom.internal')]"/>
+    <remove-node path="/api/package[starts-with(@name, 'us.zoom.meeting')]"/>
+    <remove-node path="/api/package[starts-with(@name, 'us.zoom.prism')]"/>
+    <remove-node path="/api/package[starts-with(@name, 'us.zoom.unite.jni')]"/>
+    <remove-node path="/api/package[starts-with(@name, 'us.zoom.zlt')]"/>
+    <remove-node path="/api/package[starts-with(@name, 'us.zoom.zmsg')]"/>
+    <remove-node path="/api/package[starts-with(@name, 'com.zipow.videobox.push')]"/>
+    <remove-node path="/api/package[starts-with(@name, 'com.zipow.videobox.sip')]"/>
+    <remove-node path="/api/package[starts-with(@name, 'com.zipow.videobox.util')]"/>
+    <remove-node path="/api/package[starts-with(@name, 'com.zipow.videobox.view')]"/>
 </metadata>
-
-

@@ -12,7 +12,8 @@ public partial class App : Application
 
     protected override void OnStart()
     {
-        MauiProgram.ZoomSDKService.InitZoomLib(AppSettings.ZOOM_JWT);
+        string jwtToken = ZoomHelper.GenerateJwtToken(AppSettings.SDK_KEY, AppSettings.SDK_SECRET);
+        MauiProgram.ZoomSDKService.InitZoomLib(jwtToken);
     }
             
 }
